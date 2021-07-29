@@ -1,0 +1,954 @@
+@import url("https://use.typekit.net/vos2vrf.css");
+
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=643f161d-88b3-45ef-9649-5dda27c28f3b");
+@font-face {
+  font-family: "SackersGothicLightt";
+  src: url("/assets/fonts/4a1690e1-e4c5-4644-bd72-2fdc50d48e44.eot?#iefix");
+  src: url("/assets/fonts/f8c59766-1a2b-426e-80fb-ebcb47f470c0.woff2")
+      format("woff2"),
+    url("/assets/fonts/558e1882-61fa-42c9-b946-2ff0b251d89e.woff")
+      format("woff");
+}
+@font-face {
+  font-family: "SackersGothicMedium";
+  src: url("/assets/fonts/558c6f4c-6d4c-44b2-ae4f-8bc6b55f85ed.woff2")
+      format("woff2"),
+    url("/assets/fonts/e166de1f-75a3-44b0-b88e-a037e19243d2.woff")
+      format("woff");
+}
+@font-face {
+  font-family: "SackersGothicHeavy";
+  src: url("/assets/fonts/61ce039d-64f5-462d-bada-d8253c271b5c.woff2")
+      format("woff2"),
+    url("/assets/fonts/0e382226-2fd0-4217-b22f-6624a7afc569.woff")
+      format("woff");
+}
+
+.container {
+  max-width: 1100px !important;
+}
+
+html,
+body {
+  overflow-x: hidden !important;
+  /* background: #191635; */
+}
+
+body {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+ }
+
+ main {
+   flex: 1 0 auto;
+ }
+
+.vertical-spacer {
+  height: 2.5rem;
+}
+
+/* COLORS ==========
+====================
+blue: #191635
+grey: #65637F
+gold: #EAAD4B
+tan: #F9F2E5
+=====================
+==================== */
+h1, .small-header-text {
+  font-family: "house-script", sans-serif;
+}
+
+p,
+a,
+li,
+h6 {
+  font-family: "SackersGothicMedium", sans-serif;
+}
+
+/* =================== */
+/* ===== SIDENAV ===== */
+/* =================== */
+#slide-out {
+  background: #f9f2e5;
+}
+
+#slide-out h1 {
+  color: #191635;
+  margin-bottom: 0;
+}
+
+#slide-out .side-nav-link {
+  font-family: "SackersGothicMedium", sans-serif;
+  font-size: 1.75rem;
+  color: #191635;
+  border-bottom: 2px solid #191635;
+  padding-left: 32px;
+  line-height: 28px;
+}
+
+#slide-out .side-nav-link:focus {
+  outline: none !important;
+}
+
+#slide-out li {
+  line-height: 25px;
+}
+
+#slide-out a.last-item {
+  line-height: normal !important;
+  padding-top: 2.5% !important;
+  padding-bottom: 2.5% !important;
+}
+
+#slide-out .side-nav-link-last {
+  font-family: "SackersGothicMedium", sans-serif;
+  font-size: 1.75rem;
+  color: #191635;
+  border-bottom: none;
+}
+
+#slide-out img {
+  width: 30rem;
+  margin-left: -5rem;
+}
+
+#slide-out .side-nav-divider {
+  height: 2rem;
+}
+
+.sidenav li > a {
+  height: auto !important;
+}
+
+/* ===================== */
+/* ===== HOME PAGE ===== */
+/* ===================== */
+
+/* =========== */
+/* SECTION ONE */
+/* =========== */
+#home-section-one {
+  background: #191635;
+  min-width: 100%;
+  margin: 0;
+}
+
+/* ----- DESKTOP ----- */
+#home-header #desktop .side-nav-trigger-desktop a {
+  font-family: "SackersGothicMedium", sans-serif;
+  font-size: 1.5rem;
+  color: #f9f2e5;
+  border: 2px solid #f9f2e5;
+  padding: 0.5rem;
+  border-radius: 0.15rem;
+}
+
+.services-trigger:focus {
+  border: none;
+}
+
+#home-header #desktop .desktop-header-text {
+  margin-left: 0;
+}
+
+#home-header #desktop h1 {
+  font-family: "house-script", sans-serif;
+  font-size: 10rem;
+  line-height: 5.5rem;
+  margin-bottom: 0rem;
+  color: #f9f2e5;
+}
+
+#home-header #desktop p {
+  font-family: "SackersGothicMedium", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  color: #f9f2e5;
+}
+
+/* ----- MOBILE ----- */
+#home-header #mobile .side-nav-trigger-mobile {
+  margin-left: 0;
+}
+
+#home-header #mobile .material-icons {
+  font-size: 2.5rem;
+}
+
+#home-header #mobile .side-nav-trigger-mobile a {
+  font-family: "SackersGothicMedium", sans-serif;
+  font-size: 1.5rem;
+  color: #f9f2e5;
+  padding: 0.5rem;
+}
+
+#home-header #mobile .mobile-header-text {
+  margin-left: 0;
+}
+
+#home-header #mobile h1 {
+  font-family: "house-script", sans-serif;
+  font-size: 7.5rem;
+  line-height: 5.5rem;
+  margin-bottom: 0rem;
+  color: #f9f2e5;
+}
+
+#home-header #mobile p {
+  font-family: "SackersGothicMedium", sans-serif;
+  font-size: 1.15rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  color: #f9f2e5;
+}
+
+#leaf-border {
+  margin-top: 0rem;
+}
+
+#section-one-arrow-down i {
+  font-size: 3rem;
+  color: #eaad4b;
+}
+
+#section-one-arrow-down i:hover {
+  cursor: pointer;
+}
+
+/* =========== */
+/* SECTION TWO */
+/* =========== */
+.homepage-section-two {
+  background: white;
+  min-width: 100%;
+  margin: 0;
+}
+
+ul:not(.browser-default) {
+  list-style-image: url("/SVG/SVG/caret-right-solid.svg");
+}
+
+ul:not(.browser-default) > li {
+  list-style-type: disc;
+  list-style-image: url("/SVG/SVG/caret-right-solid.svg");
+}
+#home-section-two {
+}
+
+#home-section-two h1 {
+  color: #191635;
+  margin-bottom: 0rem;
+  line-height: 2.5rem;
+}
+
+#home-section-two #leaf-border {
+  margin-bottom: 0rem;
+  margin: 0 auto;
+}
+
+#home-section-two .section-two-spacer {
+  height: 2.5rem;
+}
+
+#home-section-two .border-left {
+  border-left: 2pt solid #65637f;
+  height: 12.5rem;
+}
+
+#home-section-two .border-right {
+  border-right: 2pt solid #65637f;
+  height: 100%;
+}
+
+#home-section-two .image-card-left .card-content {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+#home-section-two .image-card-left img {
+  height: 6.5rem;
+}
+
+#home-section-two .image-card-right .card-content {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+#home-section-two .image-card-right img {
+  height: 6.5rem;
+}
+
+#home-section-two .text-card {
+  font-size: 0.95rem;
+  margin: 0 auto;
+  height: 100%;
+  background: #f9f2e5;
+  color: #65637f;
+  line-height: 2.25rem;
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+#home-section-two .text-spacer-card-two {
+  display: none;
+}
+
+#home-section-two p {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto !important;
+}
+
+#section-two-arrow-down i {
+  font-size: 3rem;
+  color: #191635;
+}
+
+#section-two-arrow-down i:hover {
+  cursor: pointer;
+}
+
+/* ============= */
+/* SECTION THREE */
+/* ============= */
+#home-section-three {
+  background: #eaad4b;
+  min-width: 100%;
+  text-align: center;
+}
+
+#home-section-three h3 {
+  color: #191635;
+  padding: 20px 0;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+
+#home-section-three .medium-row {
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  #home-section-three .medium-row {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  #home-section-three .medium-row {
+    display: none;
+  }
+}
+
+#home-section-three h1 {
+  color: #f9f2e5;
+  margin-bottom: 0rem;
+  line-height: 2.5rem;
+}
+
+#home-section-three #leaf-border {
+  margin-bottom: 0rem;
+}
+
+#home-section-three p {
+  color: #f9f2e5;
+  font-size: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 0;
+}
+
+#home-section-three #service-block img {
+  border: 2px solid #eaad4b;
+  padding: 0;
+  border-radius: 0.5rem;
+}
+
+#home-section-three a {
+  color: #f9f2e5;
+  font-size: 1.15rem;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0;
+}
+
+#home-section-three i {
+  color: #eaad4b;
+}
+
+.image-row {
+  position: relative;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+/* .image-row:hover .image {
+  opacity: 0.3;
+} */
+
+/* .image-row:hover .overlay {
+  opacity: 1;
+  cursor: pointer;
+} */
+
+/* .overlay {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: left;
+} */
+
+/* .overlay-text {
+  color: white;
+  padding: 0;
+  margin: 0 auto;
+} */
+
+/* .overlay-text p {
+  margin: 20%;
+  font-size: 1rem !important;
+  margin-top: 0;
+} */
+
+#section-three-arrow-down i {
+  font-size: 3rem;
+  color: #eaad4b;
+}
+
+#section-three-arrow-down i:hover {
+  cursor: pointer;
+}
+
+/* =========== */
+/* SECTION FOUR */
+/* =========== */
+#home-section-four {
+  background: white;
+  min-width: 100%;
+  margin: 0;
+}
+
+#home-section-four h1 {
+  color: #191635;
+  margin-bottom: 0rem;
+  line-height: 2.5rem;
+}
+
+#home-section-four .column-one {
+  background: #191635;
+  color: white;
+  padding-top: 20px;
+  min-height: 450px;
+}
+
+#home-section-four .column-one p, #home-section-four .column-one li {
+  color: white;
+}
+
+#home-section-four .column-two {
+  background: white;
+  padding-top: 20px;
+  min-height: 450px;
+}
+
+
+#home-section-four .column-three {
+  background: #191635;
+  color: white;
+  padding-top: 20px;
+  min-height: 450px;
+}
+
+#home-section-four .column-three p, #home-section-four .column-three li {
+  color: white;
+}
+
+#home-section-four .column-four {
+  background: white;
+  padding-top: 20px;
+  min-height: 450px;
+}
+
+#home-section-four .home-column-header {
+  text-align: center;
+}
+
+#leaf-one {
+  width: 32px;
+  height: 32px;
+}
+
+#leaf-two {
+  width: 41px;
+  height: 21px;
+}
+
+#leaf-three {
+  width: 41px;
+  height: 21px;
+}
+
+#leaf-four {
+  width: 32px;
+  height: 32px;
+}
+
+#leaf-five {
+  width: 32px;
+  height: 32px;
+}
+
+#leaf-six {
+  width: 41px;
+  height: 21px;
+}
+
+#leaf-seven {
+  width: 41px;
+  height: 21px;
+}
+
+#leaf-eight {
+  width: 32px;
+  height: 32px;
+}
+
+#leaf-first-row {
+  margin-top: 0rem;
+}
+
+#leaf-second-row {
+  margin-top: -2rem;
+}
+
+#leaf-third-row {
+  margin-top: -1rem;
+}
+
+#leaf-fourth-row {
+  margin-top: -2rem;
+}
+
+#leaf-fifth-row {
+  margin-top: -1rem;
+}
+
+#leaf-sixth-row {
+  margin-top: -2rem;
+}
+
+@media only screen and (min-width: 601px) {
+  #leaf-first-row {
+    margin-top: 0rem;
+  }
+
+  #leaf-second-row {
+    margin-top: -4rem;
+  }
+
+  #leaf-third-row {
+    margin-top: -1rem;
+  }
+
+  #leaf-fourth-row {
+    margin-top: 0rem;
+  }
+
+  #leaf-fifth-row {
+    margin-top: -1rem;
+  }
+
+  #leaf-sixth-row {
+    margin-top: -3rem;
+  }
+}
+
+.testimonial-card {
+  border: 2px solid #65637f;
+}
+
+.testimonial-card p {
+  font-family: "house-script", sans-serif;
+  font-size: 1.75rem;
+}
+
+#section-four-arrow-down i {
+  font-size: 3rem;
+  color: #191635;
+}
+
+#section-four-arrow-down i:hover {
+  cursor: pointer;
+}
+
+/* ============ */
+/* SECTION FIVE */
+/* ============ */
+#home-section-five {
+  background: white;
+  min-width: 100%;
+  margin: 0;
+}
+
+/* Mobile */
+#home-section-five .background {
+  background-image: url("/assets/book.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+  height: 285px;
+  position: relative;
+}
+
+#home-section-five .home-section-five-text {
+  color: #191635;
+  position: relative;
+  font-size: 2.35rem;
+  left: 22%;
+  transform: translate(0%, 95%);
+}
+
+#home-section-five .btn-flat {
+  font-family: "SackersGothicMedium", sans-serif;
+  background-color: #191635;
+  color: #fff;
+}
+
+#home-section-five .btn-flat a {
+  font-family: "SackersGothicMedium", sans-serif;
+}
+
+@media only screen and (min-width: 475px) {
+  #home-section-five .background {
+    height: 325px;
+  }
+
+  #home-section-five .home-section-five-text {
+    font-size: 2.85rem;
+    transform: translate(0%, 100%);
+  }
+}
+
+@media only screen and (min-width: 540px) {
+  #home-section-five .background {
+    height: 370px;
+  }
+
+  #home-section-five .home-section-five-text {
+    font-size: 3.25rem;
+    transform: translate(0%, 95%);
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  #home-section-two .card-row {
+    height: 15.5rem;
+  }
+
+  #home-section-two .text-card {
+    height: 15.5rem;
+    line-height: 1.5rem;
+    text-align: center !important;
+  }
+
+  #home-section-two .text-spacer-card-one {
+    height: 3rem;
+  }
+
+  #home-section-two .text-spacer-card-three {
+    height: 1.5rem;
+  }
+
+  #home-section-two .card-text {
+    /* height: 100%; */
+  }
+
+  #home-section-two .border-left {
+    border-left: 2pt solid #65637f;
+    height: 15.5rem;
+  }
+
+  #home-section-two .border-right {
+    border-right: 2pt solid #65637f;
+    height: 15.5rem;
+  }
+
+  #home-section-five .home-section-five-text {
+    font-size: 3rem;
+    transform: translate(0%, 80%);
+    left: 21%;
+  }
+
+  #home-section-five .btn-flat {
+    position: relative;
+    padding: 2em;
+    left: 50%;
+    top: 50%;
+    transform: translate(14%, 100%);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 0;
+    height: 3rem;
+    width: 12.5rem;
+  }
+}
+
+@media only screen and (min-width: 633px) {
+  #home-section-two .text-spacer-card-three {
+    height: 3rem;
+  }
+}
+
+@media only screen and (min-width: 655px) {
+  #home-section-five .background {
+    height: 450px;
+  }
+}
+
+@media only screen and (min-width: 725px) {
+  #home-section-two .text-card {
+    height: 13.5rem;
+  }
+
+  #home-section-five .home-section-five-text {
+    transform: translate(0%, 120%);
+  }
+
+  #home-section-five .btn-flat {
+    transform: translate(25%, 200%);
+  }
+}
+
+@media only screen and (min-width: 801px) {
+  #home-section-five .background {
+    height: 560px;
+  }
+
+  #home-section-five .home-section-five-text {
+    transform: translate(0%, 110%);
+    font-size: 3.25rem;
+    left: 22%;
+  }
+
+  #home-section-five .btn-flat {
+    transform: translate(22%, 240%);
+    width: 14.5rem;
+  }
+}
+
+@media only screen and (min-width: 822px) {
+  #home-section-two .text-spacer-card-two {
+    display: block;
+    height: 1rem;
+  }
+}
+
+@media only screen and (min-width: 875px) {
+  #home-section-five .home-section-five-text {
+    transform: translate(0%, 125%);
+  }
+
+  #home-section-five .btn-flat {
+    transform: translate(33%, 240%);
+  }
+}
+
+@media only screen and (min-width: 911px) {
+  #home-section-two .text-spacer-card-two {
+    height: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 955px) {
+  #home-section-five .home-section-five-text {
+    transform: translate(0%, 115%);
+    font-size: 3.75rem;
+  }
+
+  #home-section-five .btn-flat {
+    transform: translate(33%, 325%);
+    width: 15.5rem;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  #home-section-two .container {
+    max-width: 991px !important;
+  }
+
+  #home-section-two .text-card {
+    height: 10.5rem;
+  }
+
+  #home-section-two .text-spacer-card-one {
+    height: 1.5rem;
+  }
+
+  #home-section-two .text-spacer-card-two {
+    height: 0rem;
+  }
+
+  #home-section-two .text-spacer-card-three {
+    height: 1.75rem;
+  }
+
+  #home-section-five .home-section-five-text {
+    transform: translate(0%, 95%);
+  }
+
+  #home-section-five .btn-flat {
+    transform: translate(19%, 210%);
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  /* #home-section-two .text-card {
+    height: 11.5rem;
+  } */
+
+  #home-section-five .home-section-five-text {
+    transform: translate(0%, 105%);
+  }
+
+  #home-section-five .btn-flat {
+    transform: translate(25%, 255%);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #home-section-two .card-text {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  #home-section-five .background {
+    height: 640px;
+  }
+
+  #home-section-five .home-section-five-text {
+    transform: translate(0%, 110%);
+  }
+
+  #home-section-five .btn-flat {
+    transform: translate(30%, 255%);
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  #home-section-five .home-section-five-text {
+    font-size: 4.25rem;
+  }
+
+  #home-section-five .btn-flat {
+    transform: translate(31%, 315%);
+    width: 16.5rem;
+  }
+}
+
+/* Large Desktop */
+@media only screen and (min-width: 1366px) {
+  #home-section-five .background {
+    background-image: url("../assets/book.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 720px;
+    position: relative;
+  }
+
+  #home-section-five .btn-flat {
+    background-color: #191635;
+    position: relative;
+    padding: 2em;
+    left: 50%;
+    top: 50%;
+    transform: translate(28%, 436%);
+    text-align: center;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 0;
+    height: 3rem;
+    width: 17.5rem;
+  }
+
+  #home-section-five .home-section-five-text {
+    color: #191635;
+    position: relative;
+    left: 21%;
+    transform: translate(0%, 150%);
+  }
+}
+
+/* ================= */
+/* ===== ABOUT ===== */
+/* ================= */
+#about-section-two a {
+  color: black;
+}
+
+/* ================== */
+/* ===== FOOTER ===== */
+/* ================== */
+.page-footer {
+  background-color: #191635;
+  border-top: 2px solid #eaad4b;
+}
+
+.page-footer p {
+  font-size: 1.05rem;
+  color: #F9F2E5 !important;
+}
+
+.page-footer a {
+  color: #F9F2E5 !important;
+}
+
+.footer-hr {
+  border-top: 0.75px solid #f9f2e5;
+  border-bottom: 0.75px solid #f9f2e5;
+}
+
+.dropdown-content li>span {
+  color: black;
+}
+
+.select-wrapper input.select-dropdown:focus {
+  border-bottom: 1px solid black;
+}
+
+.assessment-services-list ul, .fie-list ul, .homeschool-list ul {
+  padding-left: 20rem !important;
+}
+
+.assessment-services-list li, .fie-list li, .homeschool-list li {
+  color: white;
+  margin-left: 2rem;
+  list-style-type: disc !important;
+}
+
+.dyslexia-services-list ol {
+  padding-left: 20rem !important;
+}
+
+.dyslexia-services-list li {
+  color: white;
+  margin-left: 2rem;
+  list-style-type: decimal !important;
+}

@@ -1,0 +1,78 @@
+#contact-header {
+  background: #ffffff;
+  min-width: 100%;
+  margin: 0;
+  margin-top: 1.5rem;
+}
+
+/* ----- DESKTOP ----- */
+#contact-header #desktop .side-nav-trigger-desktop a {
+  font-family: "SackersGothicMedium", sans-serif;
+  font-size: 1.5rem;
+  color: #191635;
+  border: 2px solid #191635;
+  padding: 0.5rem;
+  border-radius: 0.15rem;
+}
+
+#contact-header #desktop .desktop-header-text {
+  margin-left: 0;
+}
+
+#contact-header #desktop h1 {
+  font-family: "house-script", sans-serif;
+  font-size: 5rem;
+  /* line-height: 1.5rem; */
+  margin-bottom: 1rem;
+  color: #191635;
+}
+
+#contact-header #desktop p {
+  font-family: "SackersGothicMedium", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  color: #f9f2e5;
+}
+
+/* ----- MOBILE ----- */
+#contact-header #mobile .side-nav-trigger-mobile {
+  margin-left: 0;
+}
+
+#contact-header #mobile .material-icons {
+  font-size: 2.5rem;
+}
+
+#contact-header #mobile .side-nav-trigger-mobile a {
+  font-family: "SackersGothicMedium", sans-serif;
+  font-size: 1.5rem;
+  color: #191635;
+  padding: 0.5rem;
+}
+
+#contact-header #mobile .mobile-header-text {
+  margin-left: 0;
+}
+
+#contact-header #mobile h1 {
+  font-family: "house-script", sans-serif;
+  font-size: 5.5rem;
+  line-height: 5.5rem;
+  margin-bottom: 0rem;
+  color: #191635;
+}
+
+#contact-header #mobile p {
+  font-family: "SackersGothicMedium", sans-serif;
+  font-size: 1.15rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  color: #f9f2e5;
+}
+
+#contact-section-two h2 {
+  font-family: "house-script", sans-serif;
+  line-height: .75rem;
+  color: #191635;
+}

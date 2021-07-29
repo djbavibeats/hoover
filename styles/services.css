@@ -1,0 +1,122 @@
+#services-header {
+  background: #191635;
+  min-width: 100%;
+  margin: 0;
+  border-bottom: 2px solid #eaad4b;
+}
+
+/* ----- DESKTOP ----- */
+#services-header #desktop .side-nav-trigger-desktop a {
+  font-family: "SackersGothicMedium", sans-serif;
+  font-size: 1.5rem;
+  color: #f9f2e5;
+  border: 2px solid #f9f2e5;
+  padding: 0.5rem;
+  border-radius: 0.15rem;
+}
+
+#services-header #desktop .desktop-header-text {
+  margin-left: 0;
+}
+
+#services-header #desktop h1 {
+  font-family: "house-script", sans-serif;
+  font-size: 5rem;
+  line-height: 100%;
+  margin-bottom: 1rem;
+  color: #f9f2e5;
+}
+
+#services-header #desktop p {
+  font-family: "SackersGothicMedium", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  color: #f9f2e5;
+}
+
+/* ----- MOBILE ----- */
+#services-header #mobile .side-nav-trigger-mobile {
+  margin-left: 0;
+}
+
+#services-header #mobile .material-icons {
+  font-size: 2.5rem;
+}
+
+#services-header #mobile .side-nav-trigger-mobile a {
+  font-family: "SackersGothicMedium", sans-serif;
+  font-size: 1.5rem;
+  color: #f9f2e5;
+  padding: 0.5rem;
+}
+
+#services-header #mobile .mobile-header-text {
+  margin-left: 0;
+}
+
+#services-header #mobile h1 {
+  font-family: "house-script", sans-serif;
+  font-size: 5.5rem;
+  line-height: 100%;
+  margin-bottom: 0rem;
+  color: #f9f2e5;
+}
+
+#services-header #mobile p {
+  font-family: "SackersGothicMedium", sans-serif;
+  font-size: 1.15rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  color: #f9f2e5;
+}
+
+.service-description {
+  background: #65637f;
+  border: 2px solid #191635;
+
+  margin: 0 auto !important;
+  width: 130%;
+  margin-left: -15% !important;
+}
+
+@media only screen and (min-width: 601px) {
+  .service-description {
+    width: 125% !important;
+    margin-left: -12.5% !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .service-description {
+    width: 115% !important;
+    margin-left: -7.5% !important;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .service-description {
+    width: 150% !important;
+    margin-left: -25% !important;
+    /* max-width: 1100px !important; */
+  }
+}
+
+.service-description p {
+  color: white;
+}
+
+.service-description a {
+  color: white;
+}
+
+.service-hr-row {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.service-hr {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: 1px solid #eaad4b;
+  border-bottom: 1px solid #eaad4b;
+}
